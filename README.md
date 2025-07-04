@@ -133,7 +133,7 @@ python manage.py runserver
 
 ![Get Single Expense API](postman_images/get_single_expense.png)
 
-> 📌 Example: `GET /expenses/3/` to retrieve the expense with ID 3.
+> 📌 Example: `GET /expenses/14/` to retrieve the expense with ID 14.
 
 ---
 
@@ -148,7 +148,7 @@ python manage.py runserver
 
 ![Delete Expense API](postman_images/delete_expense.png)
 
-> 📌 Example: `DELETE /expenses/3/` to delete the expense with ID 3.
+> 📌 Example: `DELETE /expenses/14/` to delete the expense with ID 14.
 
 
 ---
@@ -164,7 +164,7 @@ MyMoneyLog/
 ├── postman_images/     # Api testing images
 ├── requirements.txt    # Python dependencies
 ├── manage.py           # Django management script
-
+```
 
 ## 🌟 Future Improvements
 
