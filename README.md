@@ -79,7 +79,7 @@ python manage.py runserver
 
 ---
 
-## 📡 API Endpoints (Sample)
+## 📡 API Endpoints 
 
 | Endpoint             | Method | Description            |
 |----------------------|--------|------------------------|
@@ -161,5 +161,38 @@ MyMoneyLog/
 ├── expenses/           # Expense tracking app
 ├── users/              # User authentication app
 ├── MyMoneyLog/         # Main Django project config
+├── postman_images/     # Api testing images
 ├── requirements.txt    # Python dependencies
 ├── manage.py           # Django management script
+
+
+## 🌟 Future Improvements
+
+- Add expense categories and tags  
+- Generate expense reports and charts  
+- Search and filter expenses  
+- Export expenses as PDF/CSV  
+- Mobile-friendly frontend with React or Flutter  
+- Dark mode support  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve **MyMoneyLog**, feel free to:
+
+1. Fork the repository  
+2. Create a new feature branch  
+3. Submit a pull request  
+
+Please ensure your code follows project conventions and is properly tested.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
