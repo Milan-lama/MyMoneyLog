@@ -87,7 +87,7 @@ python manage.py runserver
 | `/api/auth/login/`      | POST   | Authenticate users     |
 | `/api/auth/refresh/`      | POST   | Refresh and obtain a new access token  |
 | `/api/expenses/`         | GET    | List all expenses      |
-| `/api/expenses/<id>/`         | GET    | Get specific expenses      |
+| `/api/expenses/<id>/`         | GET    | Get specific expense      |
 | `/api/expenses/<id>/`    | PUT    | Update an expense      |
 | `/api/expenses/<id>/`    | DELETE | Delete an expense      |
 
@@ -97,39 +97,39 @@ python manage.py runserver
 
 ## 📬 API Testing with Postman
 
-### 🔐 User Registration (`/users/register/`)
+### 🔐 User Registration (`/api/auth/register/`)
 
 ![Register API](postman_images/register.png)
 
 ---
 
-### 🔑 User Login (`/users/login/`)
+### 🔑 User Login (`/api/auth/login/`)
 
 ![Login API](postman_images/login.png)
 
 ---
 
-### 🔄 Refresh Token (`/users/auth/refresh/`)
+### 🔄 Refresh Token (`/api/auth/refresh/`)
 
 ![Refresh Token API](postman_images/refresh_token.png)
 
 
 ---
 
-### ➕ Add New Expense (`/expenses/` – POST)
+### ➕ Add New Expense (`/api/expenses/` – POST)
 
 ![Add Expense API](postman_images/add_expense.png)
 
 
 ---
 
-### 📥 Get All Expenses (`/expenses/` – GET)
+### 📥 Get All Expenses (`/api/expenses/` – GET)
 
 ![Get Expenses API](postman_images/get_expenses.png)
 
 ---
 
-### 📄 Get Single Expense (`/expenses/<id>/` – GET)
+### 📄 Get Single Expense (`/api/expenses/<id>/` – GET)
 
 ![Get Single Expense API](postman_images/get_single_expense.png)
 
@@ -137,14 +137,14 @@ python manage.py runserver
 
 ---
 
-### ✏️ Update Expense (`/expenses/<id>/` – PUT)
+### ✏️ Update Expense (`/api/expenses/<id>/` – PUT)
 
 ![Update Expense API](postman_images/update_expense.png)
 
 
 ---
 
-### ❌ Delete Expense (`/expenses/<id>/` – DELETE)
+### ❌ Delete Expense (`/api/expenses/<id>/` – DELETE)
 
 ![Delete Expense API](postman_images/delete_expense.png)
 
